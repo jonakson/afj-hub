@@ -19,7 +19,7 @@ function Service (props) {
   return (
     <Card sx={{ maxWidth: 345 }}>
       <CardMedia
-        sx={{ height: 140 }}
+        sx={{ height: 350 }}
         image={props.imageUrl}
         title={props.title}
       />
